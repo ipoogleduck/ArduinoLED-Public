@@ -1,0 +1,11 @@
+Screen: 191mm * 95cmm
+Glass: 195mm * 100mm
+Power cord largest radius: 4.5mm, plug radius: 2.5mm
+Button length/width: 6mm
+Light sensor: 4mm * 3mm
+Screw: 3mm diameter small, 6.5mm diameter large
+Nut: 9mm diameter pont to point, 7.5 edge to edge, 2mm high
+
+0.5 millimeter larger
+
+300*300*400mm max

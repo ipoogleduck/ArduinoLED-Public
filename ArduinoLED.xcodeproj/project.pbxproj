@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DDE8879D8F244031A688F8 /* Pods_ArduinoLED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1290E0092E52B6EAF68AAB7A /* Pods_ArduinoLED.framework */; };
+		7405C80F26352CE30040A00B /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405C80E26352CE30040A00B /* UserDefaults.swift */; };
+		742A15AF262254E4006C8F9A /* DrawingHostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15AE262254E4006C8F9A /* DrawingHostVC.swift */; };
+		742A15B32622551A006C8F9A /* DrawingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15B22622551A006C8F9A /* DrawingVC.swift */; };
+		742A15B62622554B006C8F9A /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15B52622554B006C8F9A /* LogVC.swift */; };
+		742A15BB26225574006C8F9A /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15BA26225574006C8F9A /* SettingsTVC.swift */; };
+		742A15CE26227821006C8F9A /* SwipeSelectingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15CD26227821006C8F9A /* SwipeSelectingCollectionView.swift */; };
+		742A15D126227833006C8F9A /* SwipeSelectingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A15D026227833006C8F9A /* SwipeSelectingGestureRecognizer.swift */; };
+		745FF31A262AC222001A73BE /* NSNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745FF319262AC222001A73BE /* NSNotifications.swift */; };
+		74604A342618425D0091AB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74604A332618425D0091AB67 /* AppDelegate.swift */; };
+		74604A362618425D0091AB67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74604A352618425D0091AB67 /* SceneDelegate.swift */; };
+		74604A382618425D0091AB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74604A372618425D0091AB67 /* ViewController.swift */; };
+		74604A3B2618425D0091AB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74604A392618425D0091AB67 /* Main.storyboard */; };
+		74604A3D261842740091AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74604A3C261842740091AB67 /* Assets.xcassets */; };
+		74604A40261842740091AB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74604A3E261842740091AB67 /* LaunchScreen.storyboard */; };
+		74604A4B261844770091AB67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74604A4A261844770091AB67 /* GoogleService-Info.plist */; };
+		747007622659FC54001DC80A /* TextHostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747007612659FC54001DC80A /* TextHostVC.swift */; };
+		74A3136F263A741B00D1E37B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3136E263A741B00D1E37B /* TabBarController.swift */; };
+		74A31372263A9F8700D1E37B /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A31371263A9F8700D1E37B /* IntroVC.swift */; };
+		74E7F1AB262B8AB50074C575 /* TextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E7F1AA262B8AB50074C575 /* TextVC.swift */; };
+		74F7D63626489C0B00B436FE /* PresavedDrawings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D63526489C0B00B436FE /* PresavedDrawings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1290E0092E52B6EAF68AAB7A /* Pods_ArduinoLED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArduinoLED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4344DB083FB6CE0C558A6078 /* Pods-ArduinoLED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoLED.release.xcconfig"; path = "Target Support Files/Pods-ArduinoLED/Pods-ArduinoLED.release.xcconfig"; sourceTree = "<group>"; };
+		7405C80E26352CE30040A00B /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		742A15AE262254E4006C8F9A /* DrawingHostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingHostVC.swift; sourceTree = "<group>"; };
+		742A15B22622551A006C8F9A /* DrawingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC.swift; sourceTree = "<group>"; };
+		742A15B52622554B006C8F9A /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
+		742A15BA26225574006C8F9A /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		742A15CD26227821006C8F9A /* SwipeSelectingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingCollectionView.swift; sourceTree = "<group>"; };
+		742A15D026227833006C8F9A /* SwipeSelectingGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSelectingGestureRecognizer.swift; sourceTree = "<group>"; };
+		745FF319262AC222001A73BE /* NSNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotifications.swift; sourceTree = "<group>"; };
+		74604A302618425D0091AB67 /* ArduinoLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74604A332618425D0091AB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74604A352618425D0091AB67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74604A372618425D0091AB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74604A3A2618425D0091AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74604A3C261842740091AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74604A3F261842740091AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74604A41261842740091AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74604A4A261844770091AB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		747007612659FC54001DC80A /* TextHostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHostVC.swift; sourceTree = "<group>"; };
+		74A3136E263A741B00D1E37B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		74A31370263A971200D1E37B /* ArduinoLED.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArduinoLED.entitlements; sourceTree = "<group>"; };
+		74A31371263A9F8700D1E37B /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		74E7F1AA262B8AB50074C575 /* TextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextVC.swift; sourceTree = "<group>"; };
+		74F7D63526489C0B00B436FE /* PresavedDrawings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresavedDrawings.swift; sourceTree = "<group>"; };
+		911C28E8E7BD8E695EC0DFCF /* Pods-ArduinoLED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoLED.debug.xcconfig"; path = "Target Support Files/Pods-ArduinoLED/Pods-ArduinoLED.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74604A2D2618425D0091AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DDE8879D8F244031A688F8 /* Pods_ArduinoLED.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CDD81EC0721F7CAB3A8593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1290E0092E52B6EAF68AAB7A /* Pods_ArduinoLED.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742A15AD262254BD006C8F9A /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				742A15AE262254E4006C8F9A /* DrawingHostVC.swift */,
+				742A15B22622551A006C8F9A /* DrawingVC.swift */,
+				747007612659FC54001DC80A /* TextHostVC.swift */,
+				74E7F1AA262B8AB50074C575 /* TextVC.swift */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		742A15CC26227807006C8F9A /* SwipeCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				742A15CD26227821006C8F9A /* SwipeSelectingCollectionView.swift */,
+				742A15D026227833006C8F9A /* SwipeSelectingGestureRecognizer.swift */,
+			);
+			path = SwipeCollectionView;
+			sourceTree = "<group>";
+		};
+		74604A272618425D0091AB67 = {
+			isa = PBXGroup;
+			children = (
+				74604A322618425D0091AB67 /* ArduinoLED */,
+				74604A312618425D0091AB67 /* Products */,
+				AC3DE5E57A3B41664206A200 /* Pods */,
+				24CDD81EC0721F7CAB3A8593 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74604A312618425D0091AB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74604A302618425D0091AB67 /* ArduinoLED.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74604A322618425D0091AB67 /* ArduinoLED */ = {
+			isa = PBXGroup;
+			children = (
+				74A31370263A971200D1E37B /* ArduinoLED.entitlements */,
+				74604A332618425D0091AB67 /* AppDelegate.swift */,
+				74604A352618425D0091AB67 /* SceneDelegate.swift */,
+				74604A372618425D0091AB67 /* ViewController.swift */,
+				745FF319262AC222001A73BE /* NSNotifications.swift */,
+				74F7D63526489C0B00B436FE /* PresavedDrawings.swift */,
+				74A31371263A9F8700D1E37B /* IntroVC.swift */,
+				74A3136E263A741B00D1E37B /* TabBarController.swift */,
+				7405C80E26352CE30040A00B /* UserDefaults.swift */,
+				742A15CC26227807006C8F9A /* SwipeCollectionView */,
+				742A15AD262254BD006C8F9A /* Send */,
+				742A15B52622554B006C8F9A /* LogVC.swift */,
+				742A15BA26225574006C8F9A /* SettingsTVC.swift */,
+				74604A392618425D0091AB67 /* Main.storyboard */,
+				74604A3C261842740091AB67 /* Assets.xcassets */,
+				74604A3E261842740091AB67 /* LaunchScreen.storyboard */,
+				74604A41261842740091AB67 /* Info.plist */,
+				74604A4A261844770091AB67 /* GoogleService-Info.plist */,
+			);
+			path = ArduinoLED;
+			sourceTree = "<group>";
+		};
+		AC3DE5E57A3B41664206A200 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911C28E8E7BD8E695EC0DFCF /* Pods-ArduinoLED.debug.xcconfig */,
+				4344DB083FB6CE0C558A6078 /* Pods-ArduinoLED.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74604A2F2618425D0091AB67 /* ArduinoLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74604A44261842740091AB67 /* Build configuration list for PBXNativeTarget "ArduinoLED" */;
+			buildPhases = (
+				63D1620C58369F976ADF036D /* [CP] Check Pods Manifest.lock */,
+				74604A2C2618425D0091AB67 /* Sources */,
+				74604A2D2618425D0091AB67 /* Frameworks */,
+				74604A2E2618425D0091AB67 /* Resources */,
+				2D46B094D3FC606713AEAA6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoLED;
+			productName = ArduinoLED;
+			productReference = 74604A302618425D0091AB67 /* ArduinoLED.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74604A282618425D0091AB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					74604A2F2618425D0091AB67 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 74604A2B2618425D0091AB67 /* Build configuration list for PBXProject "ArduinoLED" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74604A272618425D0091AB67;
+			productRefGroup = 74604A312618425D0091AB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74604A2F2618425D0091AB67 /* ArduinoLED */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74604A2E2618425D0091AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74604A40261842740091AB67 /* LaunchScreen.storyboard in Resources */,
+				74604A3D261842740091AB67 /* Assets.xcassets in Resources */,
+				74604A4B261844770091AB67 /* GoogleService-Info.plist in Resources */,
+				74604A3B2618425D0091AB67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D46B094D3FC606713AEAA6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArduinoLED/Pods-ArduinoLED-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArduinoLED/Pods-ArduinoLED-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArduinoLED/Pods-ArduinoLED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D1620C58369F976ADF036D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArduinoLED-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74604A2C2618425D0091AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A15B62622554B006C8F9A /* LogVC.swift in Sources */,
+				74A3136F263A741B00D1E37B /* TabBarController.swift in Sources */,
+				742A15B32622551A006C8F9A /* DrawingVC.swift in Sources */,
+				742A15CE26227821006C8F9A /* SwipeSelectingCollectionView.swift in Sources */,
+				742A15BB26225574006C8F9A /* SettingsTVC.swift in Sources */,
+				74A31372263A9F8700D1E37B /* IntroVC.swift in Sources */,
+				742A15AF262254E4006C8F9A /* DrawingHostVC.swift in Sources */,
+				747007622659FC54001DC80A /* TextHostVC.swift in Sources */,
+				74604A382618425D0091AB67 /* ViewController.swift in Sources */,
+				74E7F1AB262B8AB50074C575 /* TextVC.swift in Sources */,
+				742A15D126227833006C8F9A /* SwipeSelectingGestureRecognizer.swift in Sources */,
+				7405C80F26352CE30040A00B /* UserDefaults.swift in Sources */,
+				74604A342618425D0091AB67 /* AppDelegate.swift in Sources */,
+				74604A362618425D0091AB67 /* SceneDelegate.swift in Sources */,
+				74F7D63626489C0B00B436FE /* PresavedDrawings.swift in Sources */,
+				745FF31A262AC222001A73BE /* NSNotifications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74604A392618425D0091AB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74604A3A2618425D0091AB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74604A3E261842740091AB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74604A3F261842740091AB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74604A42261842740091AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74604A43261842740091AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74604A45261842740091AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911C28E8E7BD8E695EC0DFCF /* Pods-ArduinoLED.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArduinoLED/ArduinoLED.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 421;
+				DEVELOPMENT_TEAM = 5E845TX3E6;
+				INFOPLIST_FILE = ArduinoLED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipooglecodes.ArduinoLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74604A46261842740091AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4344DB083FB6CE0C558A6078 /* Pods-ArduinoLED.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArduinoLED/ArduinoLED.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 421;
+				DEVELOPMENT_TEAM = 5E845TX3E6;
+				INFOPLIST_FILE = ArduinoLED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipooglecodes.ArduinoLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74604A2B2618425D0091AB67 /* Build configuration list for PBXProject "ArduinoLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74604A42261842740091AB67 /* Debug */,
+				74604A43261842740091AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74604A44261842740091AB67 /* Build configuration list for PBXNativeTarget "ArduinoLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74604A45261842740091AB67 /* Debug */,
+				74604A46261842740091AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74604A282618425D0091AB67 /* Project object */;
+}
